@@ -25,6 +25,9 @@ import Web from  "./Pages/Web"
 import Effect from "./Pages/Effect"
 import Reducer from "./Pages/Reducer"
 import Callbacks from "./Callbacks"
+import Ref from "./Pages/Ref"
+import Counterref from "./Pages/Counterref"
+import Memo from "./Pages/Memo"
 export default function App() {
   return (
     <div>
@@ -32,6 +35,9 @@ export default function App() {
       <Effect/>
       <Reducer/>
       <Callbacks/>
+      <Ref/>
+      <Counterref/>
+      <Memo/>
     </div>
   )
 }
